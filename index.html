@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+  />
+  <link rel="stylesheet" href="css/style.min.css?_v=20230129204700" />
+  <link rel="stylesheet" href="css/swiper-bundle.min.css?_v=20230129204700" />
+  <!-- <link rel="manifest" href="manifest.json"> -->
+  <title>Главная</title>
+</head>
+
+  <body>
+    <header class="header">
+  <div class="header__logo">
+    <picture><source srcset="img/Logo.webp" type="image/webp"><img src="img/Logo.png" alt="" /></picture>
+  </div>
+  <ul class="header__list">
+    <li class="header__list_item">
+      <a href="#" id="screen" class="slides slide-1">Главная</a>
+    </li>
+    <li class="header__list_item">
+      <a href="#about" class="slides slide-2">О нас</a>
+    </li>
+    <li class="header__list_item">
+      <a href="#" class="slides slide-3">Наши достоинства</a>
+    </li>
+    <li class="header__list_item">
+      <a href="#" class="slides slide-4">Наша команда</a>
+    </li>
+    <li class="header__list_item">
+      <a href="#" class="slides slide-5">Услуги</a>
+    </li>
+  </ul>
+</header>
+
+    <div class="main swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="screen swiper-slide">
+  <div class="container">
+    <div class="screen__cols">
+      <div class="screen__col_1">
+        <h1 class="screen__title">Create Web App</h1>
+        <button class="screen__btn">Хочу приложение</button>
+        <p class="screen__subtitle">Какой-то текст</p>
+        <p class="screen__more">Листай дальше</p>
+      </div>
+
+      <div class="screen__col_2">
+        <picture><source srcset="img/laptop.webp" type="image/webp"><img src="img/laptop.png" alt="" class="screen__laptop" width="200px"/></picture>
+        <img src="img/mokup-tel.gif" alt="" class="screen__device" width="200px"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="about swiper-slide" id="about">
+  <div class="container">
+    <div class="about__cols">
+      <div class="about__col_1">
+        <picture><source srcset="img/about_img.webp" type="image/webp"><img src="img/about_img.jpg" alt=""/></picture>
+      </div>
+
+      <div class="about__col_2">
+        <h1 class="about__title">О нас</h1>
+        <div>
+          <p class="about__description">
+            Наша компания занимается созданием прогрессивных web-приложений, они
+            же
+            <span class="pwa">PWA</span>. Создаём как с нуля, так и дорабатываем
+            уже существующие сайты, приложения.
+          </p>
+          <p class="about__description">
+            Так же мы ведём группу ВК и занимаемся продвижением вашей компании
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="properties swiper-slide">
+  <div class="container">
+    <div class="properties__cols">
+      <div class="properties__col_1">
+        <h1 class="properties__title">Наши достоинства</h1>
+        <div class="properties__blocks">
+
+          <div class="properties__block properties__block_1">
+            <div class="properties__icons">
+              <svg class="properties__icon_start properties__icon">
+                <use xlink:href="./img/icons/icons.svg#star"></use>
+              </svg>
+            </div>
+
+            <div class="properties__text">
+              <h5 class="properties__block_title">The First</h5>
+              <p class="properties__block_desc">
+                Microsoft Patch Management For Home Users
+              </p>
+            </div>
+          </div>
+
+          <div class="properties__block properties__block_2">
+            <div class="properties__icons">
+              <svg class="properties__icon_start properties__icon">
+                <use xlink:href="./img/icons/icons.svg#datas"></use>
+              </svg>
+            </div>
+
+            <div class="properties__text">
+              <h5 class="properties__block_title">The First</h5>
+              <p class="properties__block_desc">
+                Microsoft Patch Management For Home Users
+              </p>
+            </div>
+          </div>
+
+          <div class="properties__block properties__block_3">
+            <div class="properties__icons">
+              <svg class="properties__icon_start properties__icon">
+                <use xlink:href="./img/icons/icons.svg#geo"></use>
+              </svg>
+            </div>
+
+            <div class="properties__text">
+              <h5 class="properties__block_title">The First</h5>
+              <p class="properties__block_desc">
+                Microsoft Patch Management For Home Users
+              </p>
+            </div>
+          </div>
+
+          <div class="properties__block properties__block_4">
+            <div class="properties__icons">
+              <svg class="properties__icon_start properties__icon">
+                <use xlink:href="./img/icons/icons.svg#port"></use>
+              </svg>
+            </div>
+
+            <div class="properties__text">
+              <h5 class="properties__block_title">The First</h5>
+              <p class="properties__block_desc">
+                Microsoft Patch Management For Home Users
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="properties__col_2">
+        <img
+          src="img/developer.png"
+          alt=""
+          class="properties__img"
+          width="200px"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script src="js/app.min.js?_v=20230129204700"></script>
+  </body>
+</html>
